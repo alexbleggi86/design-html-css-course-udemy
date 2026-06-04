@@ -74,3 +74,19 @@ aside {
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: bold;
+}
+
+/* li:nth-child(1) { }*/
+/* li:nth-child(even) { } */
+/* li:nth-child(odd) { } */
+
+article p:last-child {
+  color: red;
+}
