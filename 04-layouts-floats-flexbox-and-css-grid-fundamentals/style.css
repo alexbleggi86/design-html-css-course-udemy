@@ -248,3 +248,9 @@ h1 {
 nav {
   float: right;
 }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
