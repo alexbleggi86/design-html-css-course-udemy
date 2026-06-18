@@ -16,6 +16,8 @@ main color:
 gray color:
   #495057 (gray 7)
   #343a40 (gray 8)
+
+icons: heroicons.com
 */
 
 * {
@@ -60,6 +62,7 @@ h2 {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
+
   display: inline-block;
 }
 
@@ -110,6 +113,10 @@ img {
 
 /* features */
 .features-icon {
+  stroke: #087f5b;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 16px;
 }
 
 .features-title {
@@ -173,6 +180,9 @@ h3 {
 }
 
 .chair-icon {
+  stroke: #087f5b;
+  width: 24px;
+  height: 24px;
 }
 
 .chair-price {
