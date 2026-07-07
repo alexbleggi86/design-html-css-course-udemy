@@ -114,7 +114,7 @@
 
 /* featured in section */
 
-.section-featured {
+.heading-featured {
   padding: 4.8rem 0 3.2rem 0;
 }
 
@@ -178,7 +178,6 @@
 
 .step-img-box::before {
   width: 60%;
-  /* height: 60%; */
   padding-bottom: 60%;
   background-color: #fdf2e9;
 }
@@ -191,4 +190,32 @@
 
 .step-img {
   width: 35%;
+}
+
+/* meals section */
+
+.section-meals {
+  padding: 9.6rem 0;
+}
+
+.meal-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.meal-attribute {
+  font-size: 1.8rem;
+}
+
+.meal-img {
+  width: 100%;
 }
