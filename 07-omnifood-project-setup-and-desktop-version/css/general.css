@@ -20,9 +20,9 @@
 02. colors: maketintsandshades.com | coolors.co/contrast-checker | yeun.github.io/open-color
   - primary: #e67e22
   - tints: #fdf2e9 | #fae5d3 | #eb984e
-  - shades: #cf711f
+  - shades: #cf711f | #45260a
   - accents:
-  - grays: #333 | #555 | #888 | #6f6f6f (lightest gray allowed on #fdf2e9) | #ddd |
+  - grays: #333 | #555 | #888 | #6f6f6f (lightest gray allowed on #fdf2e9) | #ddd
   - green: #51cf66
   - tea: #94d82d
   - yellow: #ffd43b
@@ -74,7 +74,6 @@ body {
   display: grid;
   column-gap: 6.4rem;
   row-gap: 9.6rem;
-  /* margin-bottom: 9.6rem; */
 }
 
 /*
@@ -171,6 +170,7 @@ body {
 .btn--outline:hover,
 .btn--outline:active {
   background-color: #fdf2e9;
+  /* border: 3px solid #fff; */
   /* trick to add border inside */
   box-shadow: inset 0 0 0 3px #fff;
 }
