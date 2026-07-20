@@ -55,6 +55,8 @@ html {
   /* percentage of user's browser font-size settings */
   font-size: 62.5%;
   overflow-x: hidden;
+  /* does not work on safari  */
+  /* scroll-behavior: smooth; */
 }
 
 body {
@@ -62,7 +64,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-
   /* only works if there is nothing absolutely positioned in relation to body */
   overflow-x: hidden;
 }
